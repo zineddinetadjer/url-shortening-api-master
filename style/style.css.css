@@ -8,6 +8,8 @@ a {
   text-decoration: none;
 }
 nav {
+  margin: 0 4rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -55,10 +57,11 @@ header ul div button {
   justify-content: center;
   gap: 0 1rem;
   padding: 2rem;
-  margin: 0 auto;
+  margin: 4rem auto;
   width: 87%;
-  background-image: url(./images/bg-shorten-desktop.svg);
-  background-color: blueviolet;
+  background-image: url(../images/bg-shorten-desktop.svg);
+  background-color: rgb(113, 58, 165);
+
   border-radius: 1rem;
 }
 #user input {
@@ -77,28 +80,88 @@ header ul div button {
 }
 
 #stat h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 #stat p {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
- .cart-container{
-     display: flex;
- }
- .cart{
-     border: 1px solid black;
-     padding: 3rem;
-     position: relative;
-
- }
- .cart img{
-
- }
- .cart div{
-     position: absolute;
-     top: -20px;
-     padding: 0.75rem;
-     border-radius: 50%;
-     background-color: #364f6b;
- }
- 
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem 3rem;
+  gap: 0 2rem;
+}
+.cart {
+  background-color: #f3ecec;
+  border: 0;
+  border-radius: 1rem;
+  padding: 3rem;
+  position: relative;
+}
+.cart img {
+}
+.cart div {
+  position: absolute;
+  top: -20px;
+  padding: 0.75rem;
+  border-radius: 50%;
+  background-color: #364f6b;
+}
+.cart-container h3 {
+  margin-top: 2rem;
+  font-size: 25px;
+}
+.cart-container p {
+  margin-top: 2rem;
+  color: black;
+}
+#boost {
+  background-image: url(../images/bg-boost-desktop.svg);
+  background-color: rgb(60, 12, 105);
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+#boost h1 {
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+#boost button {
+  width: 8rem;
+  align-self: center;
+  border-radius: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: white;
+}
+footer {
+  background-color: rgb(25, 7, 42);
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 3rem;
+}
+footer h2 {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+footer h4 {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+footer ul {
+  padding-top: 1.5rem;
+}
+footer ul li {
+  list-style: none;
+  line-height: 2rem;
+}
+footer ul li a {
+  color: #c4c4c4;
+}
+#social img{
+  margin-right: 1rem;
+}
