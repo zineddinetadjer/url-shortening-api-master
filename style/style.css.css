@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  color: #c4c4c4;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#firstground {
+  display: flex;
+  gap: 0 2.62rem;
+}
+nav ul {
+  display: flex;
+  gap: 0 1rem;
+  list-style: none;
+}
+.bens {
+  padding: 0.8rem 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+  color: #c4c4c4;
+  background-color: transparent;
+}
+
+.colored {
+  background-color: aqua;
+  color: black;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5rem;
+}
+header ul div h1 {
+  font-size: 3.25rem;
+}
+header ul div p {
+  margin-top: 1rem;
+}
+header ul div button {
+  margin-top: 1.5rem;
+}
+#user {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  gap: 0 1rem;
+  padding: 2rem;
+  margin: 0 auto;
+  width: 87%;
+  background-image: url(./images/bg-shorten-desktop.svg);
+  background-color: blueviolet;
+  border-radius: 1rem;
+}
+#user input {
+  width: 35rem;
+  padding: 1rem 1.8rem;
+  border-radius: 0.5rem;
+  border: 0;
+}
+#user button {
+  border-radius: 0.5rem;
+  border: 0;
+}
+#stat {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+#stat h3 {
+    font-size: 2rem;
+}
+#stat p {
+    margin-top: 2rem;
+}
+ .cart-container{
+     display: flex;
+ }
+ .cart{
+     border: 1px solid black;
+     padding: 3rem;
+     position: relative;
+
+ }
+ .cart img{
+
+ }
+ .cart div{
+     position: absolute;
+     top: -20px;
+     padding: 0.75rem;
+     border-radius: 50%;
+     background-color: #364f6b;
+ }
+ 
